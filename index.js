@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-   res.send('this is from node js')
+   res.send('this is from node js');
 });
 
 const users = [
